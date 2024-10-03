@@ -1,0 +1,50 @@
+body { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    background-color: #2b4e72;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+form { 
+    background-color: cornflowerblue;
+    padding: 25px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 0 0 10px rgb (99, 1,226);
+}
+
+label { 
+    font-weight: bold;
+    display: block;
+    margin: 10px 0 5px 0;
+
+}
+
+input [type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+input[type="url"],
+input[type="tel"],
+input[type="date"],
+input[type="color"],
+select,
+textarea{
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: calc(100% - 25px)
+}
+
+    input[type="range"] {
+        width: 100%;
+        margin-bottom: 10px; 
+    }
+    
